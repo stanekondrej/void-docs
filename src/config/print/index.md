@@ -6,6 +6,9 @@ printers on Void Linux.
 As prerequisites, install the `cups` package and enable the `cupsd` service.
 Wait until the service is marked available.
 
+You may want to add your user to the `lpadmin` group, as this will enable
+you to configure your printer using your user account.
+
 ## Installing Printing Drivers
 
 If the printer is being accessed over the network and supports PostScript or
